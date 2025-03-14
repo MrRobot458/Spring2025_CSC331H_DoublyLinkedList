@@ -1,9 +1,9 @@
 /*
 Name: Emmanuel Rivas
-ID: 15310887
+ID: 
 Class: Spring 2025, CSC 331H
 Date:
-Instructor: Prof. Salvati
+Instructor: 
 Project #1: Doubly Linked List
 
 Purpose: To test the DoublyLinkedList class
@@ -12,7 +12,6 @@ Output: Menu of choices and results of user-selected operations
 */
 
 #include <iostream>
-#include <limits>
 #include "DoublyLinkedList.h"
 
 using namespace std;
@@ -62,7 +61,7 @@ int main() {
 
     choice = displayMenu();
 
-    while (choice != 12) {
+    while (choice != 10) {
         switch (choice) {
         case 1:
             cout << "\nEnter the number to add to the front of the list: ";
@@ -132,7 +131,7 @@ int main() {
             break;
 
         case 9: 
-            cout << "\nUsing the reverse iterator to print list #1 backwards: ";
+            cout << "\nUsing the reverse iterator to print list #1 in reverse: ";
 
             for (it = list1.revBegin(); it != list1.revEnd(); it--)
                 cout << *it << " ";

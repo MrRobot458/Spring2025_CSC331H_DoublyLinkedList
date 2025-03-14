@@ -1,9 +1,9 @@
 /*
 Name: Emmanuel Rivas
-ID: 15310887
+ID: 
 Class: Spring 2025, CSC 331H
 Date:
-Instructor: Prof. Salvati
+Instructor: 
 Project #1: Doubly Linked List
 
 Purpose: DoublyLinkedList class header file
