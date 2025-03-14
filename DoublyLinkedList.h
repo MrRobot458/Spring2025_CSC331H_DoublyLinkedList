@@ -70,7 +70,7 @@ public:
     // Displays the list
     void printList() const;
 
-    // DoublyLinkedList class destructor
+    // Destructor
     ~DoublyLinkedList();
 
     // Iterator class declaration
@@ -109,7 +109,7 @@ public:
         // Overloads the inequality operator (!=)
         bool operator!=(const Iterator&) const;
 
-        // Iterator class destructor
+        // Destructor
         ~Iterator();
     };
 

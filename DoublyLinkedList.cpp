@@ -18,11 +18,11 @@ using namespace std;
 
 // DoublyLinkedList class methods' implementation:
 
-// DoublyLinkedList constructor
+// Constructor
 template <typename T>
 DoublyLinkedList<T>::DoublyLinkedList() : length(0), first(nullptr), last(nullptr) { }
 
-// DoublyLinkedList copy constructor
+// Copy constructor
 template <typename T>
 DoublyLinkedList<T>::DoublyLinkedList(const DoublyLinkedList<T>& other) : length(0), first(nullptr), last(nullptr) {
     copy(other);
@@ -217,7 +217,7 @@ void DoublyLinkedList<T>::destroy() {
     return;
 }
 
-// DoublyLinkedList destructor
+// Destructor
 template <typename T>
 DoublyLinkedList<T>::~DoublyLinkedList() {
     destroy();
@@ -227,11 +227,11 @@ DoublyLinkedList<T>::~DoublyLinkedList() {
 // ***********************************************************************************
 // Iterator class implementation:
  
-// Iterator constructor
+// Constructor
 template <typename T>
 DoublyLinkedList<T>::Iterator::Iterator() : current(nullptr) { }
 
-// Iterator overloaded constructor
+// Overloaded constructor
 template <typename T>
 DoublyLinkedList<T>::Iterator::Iterator(Node<T>* ptr) : current(ptr) { }
 
@@ -318,7 +318,7 @@ bool DoublyLinkedList<T>::Iterator::operator!=(const Iterator& other) const {
     return isEqual;
 }
 
-// Iterator class destructor
+// Destructor
 template <typename T>
 DoublyLinkedList<T>::Iterator::~Iterator() { }
 
