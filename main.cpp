@@ -12,6 +12,7 @@ Output: Menu of choices and results of user-selected operations
 */
 
 #include <iostream>
+#include <limits>
 #include "DoublyLinkedList.h"
 
 using namespace std;
